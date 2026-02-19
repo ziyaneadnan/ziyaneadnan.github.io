@@ -55,3 +55,107 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Page</title>
+<style>
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #111;
+  color: white;
+  margin-top: 100px;
+}
+
+button {
+  width: 220px;
+  padding: 15px;
+  margin: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.insta {
+  background: #E1306C;
+  color: white;
+}
+
+.video {
+  background: #00bcd4;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<h2>مرحبا بك 👋</h2>
+
+<!-- زر إنستغرام -->
+<a href="https://instagram.com/3adnan__zin.2008" target="_blank">
+  <button class="insta">📸 حسابي على إنستغرام</button>
+</a>
+
+<br>
+
+<!-- زر الفيديوهات -->
+<a href="videos.html">
+  <button class="video">🎬 فيديوهات وبحث</button>
+</a>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Videos</title>
+<style>
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>🔎 بحث عن فيديو</h2>
+
+<input type="text" id="search" placeholder="كتب شنو بغيتي تشوف">
+<button onclick="go()">بحث</button>
+
+<br><br>
+
+<!-- فيديوهات افتراضية -->
+<iframe width="300" height="180"
+src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+</iframe>
+
+<iframe width="300" height="180"
+src="https://www.youtube.com/embed/3JZ_D3ELwOQ">
+</iframe>
+
+<script>
+function go() {
+  let q = document.getElementById("search").value;
+  window.location.href = "https://www.youtube.com/results?search_query=" + q;
+}
+</script>
+
+</body>
+</html>
