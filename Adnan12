@@ -55,3 +55,20 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Join my group</title>
+</head>
+<body style="text-align:center; margin-top:50px;">
+
+<h2>انضم إلى مجموعتنا على واتساب 👇</h2>
+
+<a href="https://chat.whatsapp.com/Dt7wvuGQ8DUHCDH284r18Q?mode=gi_t">
+  <button style="padding:15px 25px; font-size:18px; background:green; color:white; border:none; border-radius:10px;">
+    دخول للمجموعة
+  </button>
+</a>
+
+</body>
+</html>
